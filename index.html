@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Font awesome icons -->
+    <script
+      src="https://kit.fontawesome.com/6a309e1749.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!--CSS LINK-->
+    <link rel="stylesheet" href="style.css" />
+
+    <script src="app.js"></script>
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BMI Calculator</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>BMI Calculator</h1>
+
+      <div class="content">
+        <label for="height">Height (in cm)</label> <br />
+        <input type="text" id="height" /> <br />
+
+        <label for="weight">Weight (in kg)</label> <br />
+        <input type="text" id="weight" />
+
+        <button id="btn">Calculate</button>
+
+        <div class="result">
+          <h3>Your BMI:</h3>
+          <p id="resultat"></p>
+        </div>
+
+        <div class="bmiInfo">
+          <div class="info-underweight">
+            <h4>Underweight:</h4>
+            <p>18.5</p>
+          </div>
+
+          <div class="info-normalweight">
+            <h4>Normal weight:</h4>
+            <p>18.5 - 25</p>
+          </div>
+
+          <div class="info-overweight">
+            <h4>Over weight:</h4>
+            <p>25 - 30</p>
+          </div>
+
+          <div class="info-obese">
+            <h4>Obese:</h4>
+            <p>> 30</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
